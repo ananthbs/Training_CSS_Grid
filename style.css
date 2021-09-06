@@ -1,0 +1,187 @@
+header{
+    background-color:#d84f57 ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 20px 0px 20px 50px;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+body{
+    margin: 0;
+}
+
+.fline{
+    color: rgb(4, 4, 133);
+}
+
+.main-container{
+    margin: 50px;
+}
+
+.sub-container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border: 1px  solid gainsboro; 
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.imgLegroom{
+width:40px;
+height:40px
+
+}
+
+.imgSafety{
+    width:40px;
+    height:40px
+}
+
+.imgLocation{
+    width:40px;
+    height:40px
+}
+
+.imgGroup{
+    width:40px;
+    height:40px
+}
+
+.fclass, .sclass{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0;
+    background-color: lightgray;
+    border-radius: 2px;
+    padding:10px;
+    border-radius: 5px;
+    
+}
+
+.f1class, .s1class{
+display: inline-block;
+
+}
+
+.f1-box, .t-box{
+padding-left: 50px;
+}
+
+.s-box, .f-box{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.l-legroom, .l-safety{
+    text-align: center;
+margin: 10px;
+color: rgb(135 148 193);
+
+}
+
+.l-rating, .l-group{
+    text-align: center;
+    margin: 10px;
+   
+}
+
+.rclass {
+background-color: lightgreen;
+font-weight: 200;
+width:80px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+padding:0;
+margin: 0;
+
+}
+
+.gclass{
+    background-color: lightgrey;
+    width:80px;
+    border-bottom-right-radius: 5px;  
+    border-bottom-left-radius: 5px;
+    padding:0;
+    margin: 0;
+    
+}
+
+.s1p, .s2p{
+    margin:0;
+    padding:0;
+}
+
+.s2p{
+    padding-top:10px;
+    font-size: x-large;
+}
+
+.off{
+    color:#ac1f29;
+    margin: 0;
+    padding:0;
+    
+    padding-top: 10px;
+    font-size: large;
+}
+
+.samount{
+    margin: 0;
+    padding:0;
+}
+
+.imgoffer{
+    width:20px;
+    height: 20px;
+}
+
+.rclass1{
+    background-color: rgb(228, 188, 10);
+    width:80px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+padding:0;
+margin: 0;
+}
+
+@media (max-width:480px){
+    .main-container{
+        margin: 0;
+    }
+    .rclass, .gclass{
+        width: 60px;
+    }
+    .imgLegroom, .imgSafety, .imgLocation, .imgGroup{
+        width:20px;
+        height:20px
+        
+        }
+        
+        .sub-container{
+            
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 0;
+            padding: 10px;
+        }
+        .rclass1{
+            width: 60px;
+        }
+        .off{
+            font-size: small;
+        }
+        .s-box, .f1-box, .t-box, .f-box{
+            padding-left: 0;
+        }
+        .fclass, .sclass{
+            font-size: small;
+
+        }
+}
